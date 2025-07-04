@@ -1,0 +1,114 @@
+
+
+@media screen and (min-width: 640px) and (max-width: 755px) {
+    .home-content h1 {
+        font-size: clamp(1rem, 6vw, 6rem);
+    }
+    .home-content p {
+        font-size: clamp(0.9rem, 1vw, 0.5rem);
+    }
+    .contact-us-content {
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .product-content h2 {
+        font-size: 4vw;
+        letter-spacing: 2vw;
+    }
+    .catalog-content h2 {
+        font-size: 4vw;
+        letter-spacing: 1vw;
+        white-space: nowrap;
+    }
+    .materia {
+        gap: 3vw;
+    }
+    .material-color p {
+        font-size: 5vw;
+    }
+}
+
+
+@media screen and (min-width: 200px) and (max-width: 640px) {
+    .home-content h1 {
+        font-size: clamp(1rem, 5vw, 6rem);
+    }
+    .home-content p {
+        font-size: clamp(0.9rem, 1vw, 2rem);
+    }
+    .contact-us-content h2 {
+        text-wrap: nowrap;
+        text-align: center;
+        font-size: clamp(1rem, 5vw, 6rem);
+    }
+    .contact-us-content p {
+        text-align: center;
+        font-size: clamp(0.5rem, 1vw, 1.5rem);
+    }
+    .contact-us-content a,
+    .btn-primary {
+        width: 100% !important;
+        white-space: nowrap;
+        margin: 0 auto 1rem auto;
+        font-size: clamp(1rem, 3vw, 4rem);
+    }
+    .product-content h2 {
+        font-size: clamp(1.5rem, 4vw, 5rem);
+        letter-spacing: 2vw;
+    }
+    .catalog-content h2 {
+        font-size: clamp(1.5rem, 4vw, 5rem);
+        letter-spacing: 1vw;
+        white-space: nowrap;
+    }
+    .materia {
+        gap: 3vw;
+    }
+    .material-color-list li {
+        font-size: clamp(1rem, 1vw, 5rem);
+    }
+    .material-list li {
+        font-size: clamp(1rem, 1vw, 5rem);
+        white-space: nowrap;
+    }
+}
+
+/* Tablets */
+@media screen and (min-width: 755px) and (max-width: 1132px) {
+    .home-content h1 {
+        font-size: clamp(2rem, 5.5vw, 3.5rem);
+    }
+    .home-content p {
+        font-size: clamp(1rem, 1vw, 1rem);
+    }
+    .materia {
+        gap: 5vw;
+    }
+    
+    .card-container {
+        gap: 1rem;
+    }
+    
+    .product-content h2 {
+        font-size: 2.5rem;
+        letter-spacing: 1rem;
+    }
+}
+@media (max-width: 768px) {
+    .about {
+        padding: 40px 0;
+    }
+
+    .about h2 {
+        font-size: 1.8rem;
+        letter-spacing: 3px;
+    }
+
+    .about-text p {
+        font-size: 0.95rem;
+        padding: 0 15px;
+    }
+}
